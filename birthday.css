@@ -1,0 +1,44 @@
+body{/*forgot to add a font,oops!now works,no need for 
+							pasting in the html section*/
+	color: whitesmoke;/*color of words*/
+	font-family: 'Happy Monkey',cursive;
+	background-color: darkslategray;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+    align-items: center;
+}
+#spx{
+	width: 10%;
+	   border-radius: 50%;
+	   border: 6px solid darkkhaki;
+}
+p,body{
+	text-shadow: 0px 0px 9px blue;
+} 
+.para{
+	padding: 3px 5px;
+	margin: 2px;
+	background-color: red;
+}
+.imge{
+	width: 100px;
+	height: auto;
+}
+#id{
+	display: flex;
+	justify-content: start;
+	align-items: center;
+	flex-direction: column;
+	height: 500px;
+	width: 95%;
+	border: 8px solid red;
+}
+#pic{
+	width: 400px;
+	border: 5px solid white;
+	border-radius:10px;
+}
+#pic:hover{
+	background-image: url("images/happy.gif");
+}
